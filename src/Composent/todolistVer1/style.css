@@ -45,36 +45,13 @@ input[type=text] {
     font-family: century gothic;
   } 
   .ajo{
-    width: 200px;
-  }
-  @media (max-width:650px) {
-    .inp{
-      width: 200px;
-      margin-left: 25px;
-    }
-    h2{
-      font-size: medium;
-    }
-    h2{
-      font-size: large;
-    }
-    body{
-      background-image: linear-gradient(rgb(116, 113, 113),rgb(236, 226, 226));
-      background-repeat: no-repeat;
-      height: 1200px;
-  } 
-  .buttonn{
-    margin-left: 1px;
-  }
-  .ajo{
-    width: 200px;
+    width: 600px;
   }
   .inp {
     width:500px;
     margin-left:200px;
     margin-bottom:20px;
     margin-top:10px
-  }
   }
   @media (max-width:650px) {
     .inp{
