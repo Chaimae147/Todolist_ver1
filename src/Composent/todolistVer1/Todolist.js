@@ -39,8 +39,8 @@ export default function Todolist() {
       <br />
       <form action="">
         
-     <input type="text" placeholder='ENTREZ UNE TACHE:' value={task} onChange={(e)=>{settask(e.target.value)}}  style={{width:'500px',marginLeft:'200px',marginBottom:'20px',marginTop:'10px'}} className='form-control ' />
-       <input type="button"  onClick={addtask} className='buttonn ' value="AJOUTER" />
+     <input type="text" placeholder='ENTREZ UNE TACHE:' value={task} onChange={(e)=>{settask(e.target.value)}}  className='form-control inp' />
+      <br /> <input type="button"  onClick={addtask} className='buttonn ' value="AJOUTER" />
 
       </form>
       <br /><br />
